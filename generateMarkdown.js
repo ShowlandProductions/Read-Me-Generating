@@ -72,7 +72,7 @@ function generateMarkdown(userResponses, userInfo) {
   ---
   ## Questions?
   ![Developer Profile Picture](${userInfo.avatar_url}) 
-  Questions? Ccontact me with the information below:
+  Questions? Contact me with the information below:
   GitHub: [@${userInfo.login}](${userInfo.url})
   `;
   // If GitHub email is not null, add to Developer section
